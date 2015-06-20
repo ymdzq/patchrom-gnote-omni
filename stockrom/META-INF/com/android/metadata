@@ -1,0 +1,3 @@
+post-build=samsung/omni_n7000/n7000:4.4.4/KTU84P/560:userdebug/test-keys
+post-timestamp=1432164566
+pre-device=n7000
