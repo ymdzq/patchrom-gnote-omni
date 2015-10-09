@@ -32,12 +32,12 @@ Subject: [PATCH] fix apn
 +++ b/Settings/smali/com/android/settings/ApnSettings.smali
 @@ -213,7 +213,7 @@
  
-     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+     iget v3, v0, Lcom/android/settings/ApnSettings;->mSlotId:I
  
--    const-string v3, "gsm.apn.sim.operator.numeric."
-+    const-string v3, "gsm.sim.operator.numeric."
+-    const-string v5, "gsm.apn.sim.operator.numeric"
++    const-string v5, "gsm.sim.operator.numeric"
  
-     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     const-string v6, ""
  
 @@ -346,7 +346,7 @@
  
