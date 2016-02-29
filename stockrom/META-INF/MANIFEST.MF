@@ -73,6 +73,9 @@ SHA1-Digest: bVzhEiGdfLX50fJ/GLz+gHybjr0=
 Name: system/lib/libstagefright_soft_flacenc.so
 SHA1-Digest: fkbu8t+SIf49xCLFR+f55t9U/qA=
 
+Name: system/bin/backuptool.sh
+SHA1-Digest: OsQucXQ1tubemYpR5/Vctu+WAXA=
+
 Name: system/media/audio/ringtones/Aquila.ogg
 SHA1-Digest: DZzUaADIbDM1elsKQ5/gXIraKXM=
 
@@ -300,6 +303,9 @@ SHA1-Digest: HNEMdGX1SvrVCSCdjSPqU8ydR6E=
 
 Name: system/media/audio/alarms/Alarm_Beep_02.ogg
 SHA1-Digest: 9CSCsIo9GbrhKAQ0QscX714pNNQ=
+
+Name: system/bin/backuptool.functions
+SHA1-Digest: s30nWKN7Wf3T4toh3rra7/90V4g=
 
 Name: system/etc/permissions/android.hardware.location.gps.xml
 SHA1-Digest: ydG3KogqmSduNEKpFzBYmpQFX1c=
@@ -538,9 +544,6 @@ SHA1-Digest: 9Tyi+ZvIGBnq7YOgzXilQFSz8sU=
 Name: system/usr/idc/sec_e-pen.idc
 SHA1-Digest: BLFjr0WRVVzZWHP039P4izljif8=
 
-Name: META-INF/com/miui/relink
-SHA1-Digest: qjJ+qcZLItCD7H50z8qH0LkjXXI=
-
 Name: system/lib/libext4_utils.so
 SHA1-Digest: aoF6r1NdruqpnaqamrhJWwCab7Y=
 
@@ -657,6 +660,9 @@ SHA1-Digest: daQX5OQW37qEC+T04Kze+xDg9uQ=
 
 Name: system/fonts/NotoSansTamil-Regular.ttf
 SHA1-Digest: embo7uU2xXrfu54AxiL+76tLKoM=
+
+Name: META-INF/com/android/otacert
+SHA1-Digest: 7QLB5TJE6cHry9tcUdQj8lNviE0=
 
 Name: system/media/audio/ringtones/Atria.ogg
 SHA1-Digest: jAzYIkqkMwZuk7ayETYGgVjy2bE=
@@ -870,6 +876,9 @@ SHA1-Digest: iw96Cm9uf/w/SbVQekBynrfv48I=
 
 Name: system/lib/libstagefright_amrnb_common.so
 SHA1-Digest: 0yk6lLjJbYiJNNBVRRQxnAh5Kqk=
+
+Name: system/xbin/su
+SHA1-Digest: 7H5FLZqEnQ6Wv/KEA5UGln2HiQU=
 
 Name: system/framework/webview/paks/fi.pak
 SHA1-Digest: DvQGvN9LS+dxliPVEJtNCrD6RZ8=
@@ -1250,7 +1259,7 @@ Name: system/etc/security/cacerts/3e7271e8.0
 SHA1-Digest: FdIMIVDu1Ugc4defifr0Za3lD9w=
 
 Name: META-INF/com/google/android/update-binary
-SHA1-Digest: ABbVoCTFDTSCDk5qxfuaNZEXFWE=
+SHA1-Digest: N+U1bRrd/9C8AQevH5qPRwqocP4=
 
 Name: system/etc/security/cacerts/f61bff45.0
 SHA1-Digest: WfpE6m8R633uJojEJUGYBW4Pcak=
@@ -2277,11 +2286,11 @@ SHA1-Digest: 7aWJLd78mDPJava0YESPlzr97n4=
 Name: META-INF/com/android/metadata
 SHA1-Digest: T/W+ZTmpWWKijYIraa2SvojtXpU=
 
-Name: system/etc/security/cacerts/2d9dafe4.0
-SHA1-Digest: pGy3BDD1O35Aq6LANMtXBS0MKUE=
-
 Name: system/lib/libui.so
 SHA1-Digest: iXDJR3ataSmzE5trBVfi8y/jchY=
+
+Name: system/etc/security/cacerts/2d9dafe4.0
+SHA1-Digest: pGy3BDD1O35Aq6LANMtXBS0MKUE=
 
 Name: system/lib/libext2_profile.so
 SHA1-Digest: fnhkvoLXq+0PNXZJJk1SXMfivJw=
@@ -2739,6 +2748,9 @@ SHA1-Digest: A8Tep11IX2lEwAlLka51hTkYK7E=
 Name: system/tts/lang_pico/de-DE_gl0_sg.bin
 SHA1-Digest: AqYOydFO+UHIftz1QE8h+6cjU+s=
 
+Name: boot.img
+SHA1-Digest: FEJk20YN6VQzekTPO9yNfgT9q9I=
+
 Name: system/app/BasicDreams.apk
 SHA1-Digest: EqpMVG/Xlcfo1CRoIELb7UVgmmQ=
 
@@ -3022,7 +3034,7 @@ Name: system/etc/init.d/98netflix
 SHA1-Digest: FzgdQ/Gm+dZ/j7y9Om8Ksk+iWeU=
 
 Name: META-INF/com/google/android/updater-script
-SHA1-Digest: hGLUAQq/uM2J0GC1BfeGoOwafs4=
+SHA1-Digest: QhG28xauiUaQxeDXJajNjoQzVQ0=
 
 Name: system/fonts/NotoSansKhmerUI-Bold.ttf
 SHA1-Digest: 2y/GYL/kvbk2dY/sYCLKqs4vUTY=

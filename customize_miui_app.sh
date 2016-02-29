@@ -42,6 +42,10 @@ if [ $1 = "DeskClock" ];then
 	applyPatch $1 $2
 fi
 
+if [ $1 = "DownloadProvider" ];then
+	applyPatch $1 $2
+fi
+
 if [ $1 = "miuisystem" ];then
     cp $1/GT-N7000.xml $2/assets/device_features/
     cp $1/n7000.xml $2/assets/device_features/
@@ -56,10 +60,15 @@ if [ $1 = "SecurityCenter" ];then
 fi
 
 if [ $1 = "Settings" ];then
-	applyPatch $1 $2
+    sed -i '/  - 17/a\  - 18' $2/apktool.yml
+    applyPatch $1 $2
 fi
 
 if [ $1 = "TeleService" ];then
     $XMLMERGYTOOL $1/res/values $2/res/values
 	applyPatch $1 $2
+fi
+
+if [ $1 = "XiaomiServiceFramework" ];then
+    applyPatch $1 $2
 fi
