@@ -39,5 +39,5 @@
         <item>com.google.android.gms</item>
         <item>com.baidu.map.location</item>
     </string-array>
-    <string name="config_networkLocationProviderPackageName">com.baidu.map.location</string>
+    <string name="config_networkLocationProviderPackageName">com.amap.android.location</string>
 </resources>
