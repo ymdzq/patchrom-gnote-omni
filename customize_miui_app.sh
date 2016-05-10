@@ -47,6 +47,7 @@ if [ $1 = "DownloadProvider" ];then
 fi
 
 if [ $1 = "miuisystem" ];then
+    sed -i '/  - 16/a\  - 17' $2/apktool.yml
     cp $1/GT-N7000.xml $2/assets/device_features/
     cp $1/n7000.xml $2/assets/device_features/
 fi
@@ -57,6 +58,8 @@ fi
 
 if [ $1 = "SecurityCenter" ];then
 	applyPatch $1 $2
+    sed -i '/  - 16/a\  - 18' $2/apktool.yml
+    sed -i '/  - 16/a\  - 17' $2/apktool.yml
 fi
 
 if [ $1 = "Settings" ];then
